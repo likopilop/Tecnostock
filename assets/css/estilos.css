@@ -1,0 +1,75 @@
+body {
+    min-height: 100vh;
+}
+
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 460px;
+}
+
+.stat-card {
+    border: 0;
+    box-shadow: 0 .125rem .5rem rgba(255, 0, 0, 0.08);
+}
+
+.table-actions {
+    white-space: nowrap;
+}
+
+.stock-bajo-row > td {
+    background-color: rgba(255, 51, 0, 0.1);
+}
+
+.page-title {
+    letter-spacing: -.02em;
+}
+
+.card-stock-bajo {
+    background-color: #f5c2c7;
+    border: 1px solid #ea868f;
+}
+
+.card-stock-bajo p,
+.card-stock-bajo h2 {
+    color: #842029;
+}
+
+.card-stock-bajo a {
+    color: #842029;
+    font-weight: 500;
+}
+.tema-oscuro {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.tema-oscuro .card {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    border-color: #343434;
+}
+
+.tema-oscuro .table {
+    --bs-table-bg: #1e1e1e;
+    --bs-table-color: #f1f1f1;
+    --bs-table-border-color: #343434;
+}
+
+.tema-oscuro .form-control,
+.tema-oscuro .form-select {
+    background-color: #242424;
+    color: #f1f1f1;
+    border-color: #555;
+}
+
+.tema-oscuro .form-control::placeholder {
+    color: #aaa;
+}
